@@ -1,0 +1,10 @@
+.container {
+    margin: 0 0 2% 13%;
+    width: 90%;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}

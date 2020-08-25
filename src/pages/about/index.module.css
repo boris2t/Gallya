@@ -1,0 +1,31 @@
+.container {
+   
+}
+
+.image {
+    width: 85%;
+    margin-left: 7%;
+}
+
+.logo {
+    width: 60%;
+    margin-left: 15%;
+}
+
+.container p {
+    color: white;
+    font-size: medium;
+}
+
+.left, .right {
+    width: 40%;
+    display: inline-block;
+}
+
+.left {
+    margin-left: 7%;
+}
+
+.right {
+    margin: 0 0 2% 5%;
+}
