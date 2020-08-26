@@ -1,0 +1,46 @@
+.spotifyInfo img {
+    width: 30%;
+    margin-left: 9.8%;
+}
+
+.spotifyIntro {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.artists {
+    margin-right: auto;
+}
+
+.wrapped {
+    margin-right: 15%;
+}
+
+.spotifyInfo h1, .stats span {
+    color: #dfff80;
+}
+
+.stats {
+    margin-top: 8%;
+    width: 45%;
+    float: right;
+}
+
+.titles, .numbers {
+    display: flex;
+}
+
+.stats span {
+    font-size: 2.1rem;
+    margin: 0 3% 0 2%;
+}
+
+.stats h2 {
+    margin: 0 1% 0 2%;
+}
+
+.stats h2 {
+    color: #cc0066;
+}

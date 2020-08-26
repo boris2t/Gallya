@@ -1,0 +1,22 @@
+.release {
+    float: left;
+    width: 18%;
+    margin: 15px;
+}
+
+.release img {
+    width: 100%;
+    min-height: 232px;
+    border: 1px solid white;
+    background-color: white;
+}
+
+.release a {
+    text-decoration: none;
+}
+
+.info {
+    text-align: center;
+    color: white;
+    margin-top: -1%;
+}

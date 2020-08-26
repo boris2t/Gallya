@@ -19,3 +19,25 @@ export const ReleaseImageUrls = {
     stillOnEarth: 'https://geo-media.beatport.com/image/49c591ca-e790-4c0b-8ddd-df9b8f2ef797.jpg',
     aroundMidnight: 'https://geo-media.beatport.com/image/078b0c83-5d2e-4909-a2c5-67c9967ffcc8.jpg'
 }
+
+export const PressUrls = {
+    dancingAstronaut: 'https://dancingastronaut.com/2019/10/techno-tuesday-premiere-gallya-re-works-deadmau5-ira-reflects-on-her-rise-to-global-renown/?fbclid=IwAR2t9rorvecb7HX_QpHDEQSt_HmrO9RJcoLp5X5KwyjOVj1HZHqWrX7ce64',
+    pointBlank: 'https://www.youtube.com/watch?v=FYFgcqySUhw&t=9s',
+    mixmag: 'https://mixmag.net/feature/sofia-bulgaria-underground-party-scene',
+    fazeMag: 'http://www.fazemag.de/gallya-laender-menschen-abenteuer-bulgarien/',
+    dmc: 'http://www.dmcworld.net/features/gallya/',
+    elGroove: 'https://electronicgroove.com/show/premieres/gallya-sanity-unplug-set-about/',
+    musicEss: 'https://themusicessentials.com/interviews/gallya-interview/',
+    nocturnal: 'http://www.thenocturnaltimes.com/gallyas-road-to-success-interview/',
+}
+
+export const PressImageUrls = {
+    dancingAstronaut: 'https://dancingastro-wpengine.netdna-ssl.com/wp-content/uploads/2018/08/1818988-300x300.png',
+    pointBlank: 'https://yt3.ggpht.com/a-/AN66SAxjzXu79cHIzorJ-yXREIEpsAqpAmHlzBOG=s900-mo-c-c0xffffffff-rj-k-no',
+    mixmag: 'https://images.squarespace-cdn.com/content/555e129ee4b0b265dc63e8ae/1456348714707-QW8KDJ8JCG1JN2AUME6J/image-asset.jpeg?content-type=image%2Fjpeg',
+    fazeMag: 'https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKxfHnZarPlWiGdl_cecfXe2Ss1jRy8eiekA&usqp=CAU',
+    dmc: 'https://pbs.twimg.com/profile_images/2792655082/0dae18d7175be46ebfcbc714eb229ed7_400x400.png',
+    elGroove: 'https://geo-media.beatport.com/image/26ee8821-d49e-4d33-a254-f2593c080117.jpg',
+    musicEss: 'https://themusicessentials.com/wp-content/uploads/2015/06/T.H.E-Logo2.jpg',
+    nocturnal: 'https://pbs.twimg.com/profile_images/916542264255561728/bsiNeYV0_400x400.jpg',
+}
