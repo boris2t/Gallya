@@ -1,0 +1,8 @@
+.container {
+    margin-top: 2%;
+}
+
+.container iframe {
+    margin-left: 10%;
+    min-height: 600px;
+}
