@@ -6,18 +6,6 @@ const VisibleCountUp = ({ end, decimals, duration, suffix }) => {
     const [visible, setVisible] = useState(false)
 
     return (
-        // <VisibilitySensor
-        //     active={!visible}
-        //     onChange={isVisible => {
-        //         if (isVisible) {
-        //             setVisible(true)
-        //         }
-        //     }}
-        //     delayedCall
-        // >
-        //     <h1><CountUp start={visible ? null : 0} end={end} decimals={decimals} duration={duration} ref={countUpRef} />k</h1>
-        // </VisibilitySensor>
-
         <CountUp start={visible ? null : 0} end={end} decimals={decimals} duration={duration} suffix={suffix}>
             {({ countUpRef }) => {
                 return (
