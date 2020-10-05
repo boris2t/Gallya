@@ -39,8 +39,44 @@
 
 .stats h2 {
     margin: 0 1% 0 2%;
+    color: #cc0066;
 }
 
-.stats h2 {
-    color: #cc0066;
+@media only screen and (max-width: 600px) {
+    .spotifyInfo img {
+       display: none;
+       width: 0;
+       margin: 0;
+    }
+
+    .stats {
+        padding: 0 0 15% 0;
+        width: 100%;
+    }
+
+    .stats h2 {
+        margin-left: 19px;
+        font-size: 14px;
+    }
+
+    .stats span {
+        margin-left: 19px;
+        font-size: 20px;
+    }
+
+    .spotifyIntro {
+        width: 80%;
+    }
+
+    .artists, .wrapped {
+        font-size: 16px;
+    }
+
+    .artists {
+        margin-left: -16px;
+    }
+
+    .wrapped {
+        margin-right: -11px;
+    }
 }

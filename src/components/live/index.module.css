@@ -6,3 +6,10 @@
     margin-left: 10%;
     min-height: 600px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container iframe {
+        margin-left: 10%;
+        min-height: 300px;
+    }
+}

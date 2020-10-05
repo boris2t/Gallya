@@ -4,9 +4,10 @@
     position: fixed;
     left: 0;
     top: 0;
+    z-index: 1;
     height: 12%;
     width: 100%;
-    background-color: black; 
+    background-color: black;
 }
 
 .header, .links {
@@ -35,4 +36,19 @@
 
 .links a:hover {
     color: red;
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        height: 12%;
+    }
+
+    .header img {
+        width: 120px;
+        margin-left: 10%;
+    }
+
+    .links {
+        margin-left: 3%;
+    }
 }
