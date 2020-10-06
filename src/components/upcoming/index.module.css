@@ -3,6 +3,7 @@
     height: 300px;
     margin: 1% 0 0 1%;
     background-color: black;
+    opacity: 0.9;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
@@ -54,8 +55,15 @@
 @media only screen and (max-width: 600px) {
     .container {
         position: absolute;
-        left: 16%;
-        top: 60%;
+        left: 15%;
+        top: 55%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .container {
+        position: absolute;
+        top: 43%;
     }
 }
 

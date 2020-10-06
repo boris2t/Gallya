@@ -80,3 +80,26 @@
         margin-right: -11px;
     }
 }
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .stats {
+        padding: 0 0 15% 0;
+        width: 50%;
+    }
+
+    .stats h2 {
+        font-size: 16px;
+    }
+
+    .stats span {
+        font-size: 23px;
+    }
+
+    .spotifyIntro {
+        width: 80%;
+    }
+
+    .artists, .wrapped {
+        font-size: 20px;
+    }
+}

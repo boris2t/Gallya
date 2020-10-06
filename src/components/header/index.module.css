@@ -40,7 +40,7 @@
 
 @media only screen and (max-width: 600px) {
     .header {
-        height: 12%;
+        height: 7%;
     }
 
     .header img {
@@ -50,5 +50,15 @@
 
     .links {
         margin-left: 3%;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 600px) {
+    .header {
+        height: 8%;
+    }
+
+    .header img {
+        width: 150px;
     }
 }
