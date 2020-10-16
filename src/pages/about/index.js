@@ -1,16 +1,22 @@
 import React from 'react'
 import styles from './index.module.css'
-import img from '../../static/about.png'
-import logo from '../../static/logo.png'
+import img from '../../static/about.jpg'
 import Layout from '../../components/common/layout'
 
 const About = () => {
     return (
         <Layout>
             <div className={styles.container}>
-                <img src={img} alt='background' className={styles.image}/>
                 <div className={styles.left}>
-                    <p>Bulgarian DJ &amp; producer Gallya is one of the newest and most
+                    <img src={img} alt='background' className={styles.image}/>
+                    <div className={styles.contacts}>
+                        <h1>Contacts</h1>
+                        <p>Sofia, Bulgaria</p>
+                        <p>info@gallya.com</p>
+                    </div>
+                </div>
+                <div className={styles.right}>
+                <p>Bulgarian DJ &amp; producer Gallya is one of the newest and most
                     interesting names in techno. Whether a rolling techno bassline
                     or a dynamic film score project, Gallya’s ability to consistently
                     churn out dark and immersive yet vibrant tracks has made her
@@ -34,9 +40,7 @@ const About = () => {
                     label showcases in South America and Europe, Gallya was
                     able to take her talents on the road to build a strong,
                     international fan-base.</p>
-                </div>
-                <div className={styles.right}>
-                    <img src={logo} alt='logo' className={styles.logo}/>
+
                     <p>The title track of her March 2017 EP Machines broke the
                     Beatport Techno Top 100, peaking at #16, and remained in
                     the charts for an entire month. “Machines” gained the support
